@@ -13,7 +13,7 @@ TEST
 Version 1.0
 <br>
 <?php 
-  echo " Hello This pod IP is: ".$_SERVER['SERVER_ADDR'] ;
+  echo " Hey This pod IP is: ".$_SERVER['SERVER_ADDR'] ;
   echo "\n<br>" ;
   date_default_timezone_set('Europe/Stockholm');
   $date = date('Y/m/d H:i:s', time());
